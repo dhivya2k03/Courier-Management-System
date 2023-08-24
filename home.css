@@ -1,0 +1,119 @@
+body {
+  font-family: "Lato", sans-serif;
+ /* background-image: url("D:/WT lab/Mini Project/bg3.jpg");
+  background-repeat: no-repeat;
+   background-attachment: fixed;
+  background-size: cover;*/
+}
+
+/* Fixed sidenav, full height */
+.sidenav {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+ background: linear-gradient(to right,#0a7ab8,#21529e 60%);
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #ffffff;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover{
+  color: #f1f1f1;
+  background-color:  #003399;
+}
+.dropdown-btn:hover{
+	 background-color:  #003399;
+	}
+
+/* Main content */
+.main {
+  margin-left:250px;
+  /* Same as the width of the sidenav */
+  font-size: 20px; /* Increased text to enable scrolling */
+  padding: 0px 100px;
+}
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+ 
+  color: white;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background-color: #e6e6e6;
+  padding-left: 8px;
+
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+	color: #003399;
+  float: right;
+  padding-right: 8px;
+}
+
+/* Some media queries for responsiveness */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+
+body {
+  background-color: #f2f2f2;
+  font-family: Arial;
+}
+
+input[type=text],textarea, select {
+  width: 173%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  
+}
+
+input[type=submit],[type=reset],[type=cancel]{
+  width: 100%;
+  background: linear-gradient(to right,#0a7ab8,#21529e 60%);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background: linear-gradient(to right,#2479a6)
+}
+
+div.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
